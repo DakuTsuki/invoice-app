@@ -1,7 +1,7 @@
 // import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { Button } from "@/components/ui/button"
 
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center h-[100vh] gap-6 text-center max-w-5xl mx-auto">
