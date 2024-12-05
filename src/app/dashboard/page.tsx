@@ -1,6 +1,6 @@
-// // import Image from "next/image";
-// import { Button } from "@/components/ui/button";
-// import Link from "next/link";
+
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import {
   Table,
   TableBody,
@@ -11,15 +11,20 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Badge } from "@/components/ui/badge";
+import { CirclePlus } from 'lucide-react';
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center  gap-6 text-center max-w-5xl mx-auto my-12">
       <div className="flex justify-between items-center w-full">
         <h1 className="text-3xl font-bold text-left">Invoice</h1>
-        <div>
-       
-        </div>
+  <p>
+    <Button className="inline-flex gap-2" variant={"ghost"} asChild>
+      <Link href="/invoices/new">
+      <CirclePlus className="h-4 w-4"/>
+      Create Invoice</Link>
+    </Button>
+  </p>
       </div>
       <Table>
         <TableCaption>A list of your recent invoices.</TableCaption>
