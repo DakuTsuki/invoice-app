@@ -1,5 +1,5 @@
 'use Server'
 
-async function createAction(formData: FormData){
+export async function createAction(formData: FormData){
   console.log('formData', formData)
 }

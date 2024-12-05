@@ -6,7 +6,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { createAction } from "@/app/action"
+import { createAction } from "@/app/action";
+
 
 export default async function Home() {
   return (
