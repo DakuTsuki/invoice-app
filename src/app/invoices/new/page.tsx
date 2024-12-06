@@ -6,8 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { createAction } from "@/app/action";
-
+import { createAction } from '@/app/action';
 
 export default async function Home() {
   return (
@@ -30,7 +29,7 @@ export default async function Home() {
           >
             Billing Email
           </Label>
-          <Input id="name" name=" email" type="email" />
+          <Input id="name" name="email" type="email" />
         </div>
         <div>
           <Label
@@ -39,7 +38,7 @@ export default async function Home() {
           >
             Value
           </Label>
-          <Input id="name" name=" value" type="text" />
+          <Input id="name" name="value" type="text" />
         </div>
         <div>
           <Label

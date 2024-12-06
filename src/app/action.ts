@@ -1,5 +1,10 @@
-'use Server'
+'use server'
 
 export async function createAction(formData: FormData){
-  console.log('formData', formData)
+  const value = Math.floor(
+    Number.parseFloat(String(formData.get("value"))) * 100,
+  );
+
+  console.log("value:", value )
+  
 }
